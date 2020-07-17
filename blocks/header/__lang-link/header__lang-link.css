@@ -1,0 +1,16 @@
+.header__lang-link {
+    color: #ffffff;
+    margin-right: 18px;
+    text-decoration: none;
+
+} 
+
+.header__lang-link:last-child {
+  margin-right: 0;
+}
+@media screen and (max-width: 360px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 1.33;
+  }
+}
