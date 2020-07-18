@@ -3,9 +3,8 @@ max-width: 690px;
 font-style: normal;
 font-weight: 900;
 font-size: 54px;
-line-height: 1;
+line-height: 58px;
 color: #FFFFFF;
-margin-top: 92px;
 margin-bottom: 40px;
 }
 @media screen and (max-width: 768px) {

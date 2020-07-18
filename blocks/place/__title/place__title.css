@@ -4,7 +4,7 @@
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
-  line-height: 1.2;
+  line-height: 76px;
   color: #FFFFFF;
   justify-self: start;
   align-self: start;
@@ -17,15 +17,16 @@
 }
 @media screen and (max-width: 768px) {
   .place__title {
-    width: 340px;
-    font-size: 52px;
-    line-height: 1.1;  
+    width: 330px;
+    font-size: 42px;
+    line-height: 46px;
   }
 }
 @media screen and (max-width: 320px) {
   .place__title {
     width: 288px;
     font-size: 32px;
-    line-height: 35px;  
+    line-height: 35px;
+    text-align: center;
   }
 }
