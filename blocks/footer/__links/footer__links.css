@@ -12,9 +12,14 @@
       margin-top: 88px;
     }
   }
+  @media screen and (max-width: 720px) {
+    .footer__links {
+      flex-direction: column;
+    }
+  }
   @media screen and (max-width: 320px) {
     .footer__links {
-      width: 186px;
+      max-width: 186px;
       flex-direction: column;
       margin-top: 64px;
       margin-bottom: 0;

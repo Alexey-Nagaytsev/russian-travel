@@ -1,15 +1,15 @@
 .lead__picture {
 max-width: 984px;
 object-fit: cover;
-width: 100%;
+max-width: 100%;
 }
 @media screen and (max-width: 1024px) {
     .lead__picture {
-      width: 95%;
+      max-width: 95%;
     }
   }
 @media screen and (max-width: 320px) {
     .lead__picture {
-      width: 100%;
+      max-width: 100%;
     }
   }
