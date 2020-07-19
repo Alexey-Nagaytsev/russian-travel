@@ -6,19 +6,20 @@ grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
 grid-gap: 16px;
 margin: auto;
 }
+
 @media screen and (max-width: 1024px) {
     .photo-grid {
-      width: 928px;
+      width: 720px;
       grid-gap: 14px;
     }
 }
 @media screen and (max-width: 768px) {
     .photo-grid {
-      width: 720px;
+      width: 100%;
         }
     }
     @media screen and (max-width: 320px) {
       .photo-grid {
-        width: 288px;
+        width: 100%;
           }
       }
