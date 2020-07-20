@@ -8,6 +8,11 @@ max-width: 100%;
       max-width: 95%;
     }
   }
+  @media screen and (max-width: 768px) {
+    .lead__picture {
+      max-width: 100%;
+    }
+  }
 @media screen and (max-width: 320px) {
     .lead__picture {
       max-width: 100%;

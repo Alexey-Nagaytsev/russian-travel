@@ -22,5 +22,7 @@
   .place__paragraphs {
     max-width: 288px;
     text-align: center;
+    margin-top: 32px;
+    margin: auto;
   }
 }
